@@ -33,6 +33,16 @@
 | **[LR-Tablet](https://github.com/LLR6/LR-Tablet)** | 面向横屏平板的英语阅读训练器：双栏阅读、导入、作答、批注与本地记录 | [体验与 Android 构建](https://github.com/LLR6/LR-Tablet#readme) |
 | **[LR Lab](https://github.com/LLR6/-)** | Android、本地工具与安全实验的集合 | [项目索引](https://github.com/LLR6/-#readme) |
 
+### 🛡️ 网安 × AI 研究项目
+
+| 项目 | 研究问题 | 可核查结果 |
+| :--- | :--- | :--- |
+| **[LR-PayloadLab](https://github.com/LLR6/LR-PayloadLab)** | 如何让端点安全研究载荷可审计、受约束并能完整回滚 | 行为白名单、路径与资源上限、逐动作回执、生成物 SHA-256 |
+| **[Detector Resilience Lab](https://github.com/LLR6/LR-Detector-Resilience-Lab)** | 检测模型遇到特征漂移后，哪些样本会从命中变成漏报 | 固定种子、漂移前后混淆矩阵、翻转样本及特征差值 |
+| **[LR-SOC-Copilot](https://github.com/LLR6/LR-SOC-Copilot)** | AI 辅助调查怎样避免脱离证据直接下结论 | 实体时间关联、本地 Runbook 检索、源文件行号引用、反证清单 |
+
+三项组成一条实验链：**生成受控遥测 → 测量检测退化 → 将告警关联为可回查案件**。载荷实验只允许无害本地行为；检测鲁棒性实验只操作数值特征。
+
 ### 🧰 开源小工具：拿来就能跑
 
 | 工具 | 适合在什么时候用 | 入口 |
