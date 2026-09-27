@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="LR Lab：紫蓝色夜空、月亮、城市与动漫风格人物剪影">
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#0b1023"/><stop offset=".56" stop-color="#192045"/><stop offset="1" stop-color="#281632"/></linearGradient>
+    <linearGradient id="glass"><stop stop-color="#78e7ff"/><stop offset="1" stop-color="#f5a6dc"/></linearGradient>
+    <radialGradient id="moon"><stop stop-color="#fff5ff"/><stop offset=".8" stop-color="#d9cbff"/><stop offset="1" stop-color="#907de2"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8dbbff" stroke-opacity=".1"/></pattern>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#sky)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <circle cx="1000" cy="92" r="67" fill="url(#moon)" opacity=".92"/>
+  <circle cx="1000" cy="92" r="86" fill="none" stroke="#d9c8ff" stroke-opacity=".25"/>
+  <g fill="#c3dbff" opacity=".76"><circle cx="89" cy="55" r="2"/><circle cx="240" cy="32" r="1.5"/><circle cx="527" cy="81" r="1.7"/><circle cx="708" cy="42" r="2"/><circle cx="822" cy="116" r="1.5"/><circle cx="1133" cy="38" r="2"/></g>
+  <path d="M0 244h60v-53h27v-47h36v100h28v-69h30v69h36v-94h48v94h25v-33h33v33h34v-73h44v73h27v-58h37v58h38v-87h35v87h39v-45h33v45h37v-74h44v74h40v-31h45v31h45v-78h45v78h33v-52h47v52h45v-67h39v67h44v-41h52v41h43v-71h49v71h36v-39h55v39h45v56H0Z" fill="#10192d"/>
+  <g fill="#89dcff" opacity=".66"><path d="M75 209h9v3h-9zm39-46h8v3h-8zm121 13h9v3h-9zm166 10h8v3h-8zm131-13h8v3h-8zm228 32h9v3h-9zm329-20h10v3h-10z"/></g>
+  <path d="M924 300c-6-39 5-77 28-92l9-8-4-19c-9-4-17-13-19-23-8-12-8-28-2-42l-13 8 4-22 22-27 7 15 15-27 15 17 27-21-6 28 30-4-14 20 18 16-23 4 5 15-15 9c3 27-6 47-25 55l-1 15c22 14 39 40 42 63z" fill="#141427" stroke="#7464a3" stroke-width="2"/>
+  <path d="M951 161c13 4 27 3 41-2m-24 19 5 10 8-12" fill="none" stroke="#aa9ddd" stroke-width="2" opacity=".7"/>
+  <path d="M38 239h720" stroke="url(#glass)" stroke-width="2" opacity=".65"/>
+  <text x="66" y="116" fill="#f5f5ff" font-family="system-ui, sans-serif" font-size="58" font-weight="800" letter-spacing="4">LR / LAB</text>
+  <text x="69" y="158" fill="#8ae5fa" font-family="system-ui, sans-serif" font-size="18" letter-spacing="3">SECURITY  •  AGENTS  •  BUILDING</text>
+  <text x="69" y="210" fill="#d5d7f5" font-family="system-ui, sans-serif" font-size="19">研究问题，写下代码，留下证据。</text>
+  <rect x="68" y="174" width="315" height="1" fill="url(#glass)"/>
+</svg>
