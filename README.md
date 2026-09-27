@@ -33,6 +33,16 @@
 | **[LR-Tablet](https://github.com/LLR6/LR-Tablet)** | 面向横屏平板的英语阅读训练器：双栏阅读、导入、作答、批注与本地记录 | [体验与 Android 构建](https://github.com/LLR6/LR-Tablet#readme) |
 | **[LR Lab](https://github.com/LLR6/-)** | Android、本地工具与安全实验的集合 | [项目索引](https://github.com/LLR6/-#readme) |
 
+### 🧰 开源小工具：拿来就能跑
+
+| 工具 | 适合在什么时候用 | 入口 |
+| :--- | :--- | :--- |
+| **Android CI Doctor** | Gradle / Android CI 构建失败，想从日志中快速找到带行号的签名、JDK、SDK 或产物线索 | [源码与示例](https://github.com/LLR6/lr-android-ci-doctor) |
+| **CTF Tracebook** | CTF 做完后，把终端记录整理为可核查的复盘草稿，默认遮盖 flag 和常见口令 | [源码与示例](https://github.com/LLR6/lr-ctf-tracebook) |
+| **Detection Threshold Lab** | 对周期外联检测阈值做可复现实验，看误报和漏报如何变化 | [源码与示例](https://github.com/LLR6/lr-detection-lab) |
+
+这三个项目都有本地示例、测试和明确的适用边界；欢迎提出**可复现的输入与预期结果**。
+
 ### 🔬 给想看技术细节的读者
 
 - **检测工程**：NightWatch 把事件、时间窗口和实体关联起来，同时保留告警证据；规则是待人工核验的信号，不能把高熵 DNS 或周期连接直接等同于攻击。
