@@ -18,6 +18,64 @@
 
 ---
 
+<!-- LR-NOW-BUILDING:START -->
+
+## ⌁ Now Building
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### ⏳ Agent Reliability
+**LR-Agent**
+
+Counterfactual patches, causal evidence, repository aging.
+
+[Open →](https://github.com/LLR6/LR-agent)
+
+</td>
+<td width="25%" valign="top">
+
+### 📡 Detection
+**NightWatch**
+
+Sequence correlation, beaconing, DNS signals, evidence-backed alerts.
+
+[Open →](https://github.com/LLR6/Cybersecurity-Detection-Engineering-Android-Automation-Learning-by-Building)
+
+</td>
+<td width="25%" valign="top">
+
+### 🧭 SOC / IR
+**LR-SOC-Copilot**
+
+Entity correlation, local runbooks, source-line citations.
+
+[Open →](https://github.com/LLR6/LR-SOC-Copilot)
+
+</td>
+<td width="25%" valign="top">
+
+### 📱 Android
+**LR-Tablet**
+
+Tablet-first reading practice, local progress, reproducible APK builds.
+
+[Open →](https://github.com/LLR6/LR-Tablet)
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img alt="LR-Agent last commit" src="https://img.shields.io/github/last-commit/LLR6/LR-agent?style=flat-square&label=LR-Agent">
+  <img alt="NightWatch last commit" src="https://img.shields.io/github/last-commit/LLR6/Cybersecurity-Detection-Engineering-Android-Automation-Learning-by-Building?style=flat-square&label=NightWatch">
+  <img alt="SOC Copilot last commit" src="https://img.shields.io/github/last-commit/LLR6/LR-SOC-Copilot?style=flat-square&label=SOC">
+  <img alt="LR-Tablet last commit" src="https://img.shields.io/github/last-commit/LLR6/LR-Tablet?style=flat-square&label=Tablet">
+</p>
+
+<!-- LR-NOW-BUILDING:END -->
+
 
 ## ✦ Featured
 
