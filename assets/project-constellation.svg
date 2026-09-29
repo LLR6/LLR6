@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06070c"/><stop offset=".5" stop-color="#0b1020"/><stop offset="1" stop-color="#120b1c"/></linearGradient>
+<radialGradient id="core"><stop stop-color="#a78bfa"/><stop offset=".45" stop-color="#6366f1"/><stop offset="1" stop-color="#312e81"/></radialGradient>
+<filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="660" rx="34" fill="url(#bg)"/>
+<g opacity=".08" stroke="#94a3b8"><path d="M0 110H1200M0 220H1200M0 330H1200M0 440H1200M0 550H1200"/><path d="M150 0V660M300 0V660M450 0V660M600 0V660M750 0V660M900 0V660M1050 0V660"/></g>
+<g stroke="#64748b" stroke-opacity=".32" stroke-width="2">
+<path d="M600 330L290 180"/><path d="M600 330L910 170"/><path d="M600 330L1000 340"/><path d="M600 330L880 520"/><path d="M600 330L305 515"/><path d="M600 330L190 335"/>
+</g>
+<circle cx="600" cy="330" r="92" fill="url(#core)" opacity=".88" filter="url(#g)"/>
+<circle cx="600" cy="330" r="118" fill="none" stroke="#8b5cf6" stroke-opacity=".22"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="70" y="72" fill="#94a3b8" font-size="18" font-weight="700">LR LAB / 0x4C52 · PROJECT CONSTELLATION</text>
+<text x="600" y="318" text-anchor="middle" fill="#fff" font-size="28" font-weight="800">0x4C52</text>
+<text x="600" y="350" text-anchor="middle" fill="#ddd6fe" font-size="15">build · break · learn · repeat</text>
+
+<g transform="translate(160 120)"><rect width="300" height="120" rx="18" fill="#0d1117" stroke="#8b5cf6" stroke-opacity=".5"/><text x="22" y="36" fill="#c4b5fd" font-size="16" font-weight="700">AI AGENT</text><text x="22" y="70" fill="#f8fafc" font-size="22" font-weight="800">LR-Agent</text><text x="22" y="96" fill="#64748b" font-size="13">counterfactual patches · aging</text></g>
+
+<g transform="translate(760 105)"><rect width="300" height="120" rx="18" fill="#0d1117" stroke="#ef4444" stroke-opacity=".5"/><text x="22" y="36" fill="#fca5a5" font-size="16" font-weight="700">DETECTION</text><text x="22" y="70" fill="#f8fafc" font-size="22" font-weight="800">NightWatch</text><text x="22" y="96" fill="#64748b" font-size="13">events · rules · evidence</text></g>
+
+<g transform="translate(860 280)"><rect width="270" height="120" rx="18" fill="#0d1117" stroke="#6366f1" stroke-opacity=".5"/><text x="22" y="36" fill="#a5b4fc" font-size="16" font-weight="700">SOC / IR</text><text x="22" y="70" fill="#f8fafc" font-size="22" font-weight="800">SOC Copilot</text><text x="22" y="96" fill="#64748b" font-size="13">correlation · runbooks</text></g>
+
+<g transform="translate(745 465)"><rect width="300" height="120" rx="18" fill="#0d1117" stroke="#f97316" stroke-opacity=".5"/><text x="22" y="36" fill="#fdba74" font-size="16" font-weight="700">SECURITY RESEARCH</text><text x="22" y="70" fill="#f8fafc" font-size="22" font-weight="800">PayloadLab</text><text x="22" y="96" fill="#64748b" font-size="13">bounded · auditable · reproducible</text></g>
+
+<g transform="translate(160 460)"><rect width="300" height="120" rx="18" fill="#0d1117" stroke="#14b8a6" stroke-opacity=".5"/><text x="22" y="36" fill="#5eead4" font-size="16" font-weight="700">BLUE TEAM LAB</text><text x="22" y="70" fill="#f8fafc" font-size="22" font-weight="800">Threshold Lab</text><text x="22" y="96" fill="#64748b" font-size="13">precision · recall · trade-offs</text></g>
+
+<g transform="translate(70 275)"><rect width="270" height="120" rx="18" fill="#0d1117" stroke="#22d3ee" stroke-opacity=".5"/><text x="22" y="36" fill="#67e8f9" font-size="16" font-weight="700">TOOLS</text><text x="22" y="70" fill="#f8fafc" font-size="20" font-weight="800">CI Doctor · Tracebook</text><text x="22" y="96" fill="#64748b" font-size="13">diagnosis · evidence · notes</text></g>
+
+<text x="600" y="625" text-anchor="middle" fill="#64748b" font-size="15">Security × AI Agent × Detection Engineering × Android × Automation</text>
+</g></svg>
