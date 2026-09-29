@@ -126,7 +126,7 @@ A reproducible blue-team experiment for beacon detection: labeled synthetic traf
 
 这里不只展示“做了什么”，也记录每个项目有没有 **测试、固定评估集、CI Artifact、完整性/溯源信息，以及明确的限制条件**。
 
-→ [Open the engineering health matrix](./ENGINEERING_HEALTH.md)
+→ [Open the engineering health matrix](./ENGINEERING_HEALTH.md) · [Project standards](./PROJECT_STANDARDS.md)
 
 <!-- LR-ENGINEERING-HEALTH:END -->
 
