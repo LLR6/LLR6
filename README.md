@@ -61,6 +61,11 @@ A reproducible blue-team experiment for beacon detection: labeled synthetic traf
 
 ## ◇ Project Constellation
 
+<!-- LR-CONSTELLATION-ART:START -->
+<p align="center"><img src="./assets/project-constellation.svg" alt="LR Lab project constellation" width="100%"></p>
+<!-- LR-CONSTELLATION-ART:END -->
+
+
 <p align="center">
   <a href="https://github.com/LLR6/LR-agent"><img alt="LR-Agent" src="https://img.shields.io/badge/AI_AGENT-LR--Agent-8B5CF6?style=for-the-badge"></a>
   <a href="https://github.com/LLR6/Cybersecurity-Detection-Engineering-Android-Automation-Learning-by-Building"><img alt="NightWatch" src="https://img.shields.io/badge/DETECTION-NightWatch-EF4444?style=for-the-badge"></a>
