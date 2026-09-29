@@ -57,6 +57,34 @@ A reproducible blue-team experiment for beacon detection: labeled synthetic traf
 > 最近主要在做两个问题：**Agent 的长期可靠性**，以及 **Detection Engineering 里阈值、证据和误报之间的关系**。
 
 
+<!-- LR-PROJECT-MAP:START -->
+
+## ◇ Project Constellation
+
+<p align="center">
+  <a href="https://github.com/LLR6/LR-agent"><img alt="LR-Agent" src="https://img.shields.io/badge/AI_AGENT-LR--Agent-8B5CF6?style=for-the-badge"></a>
+  <a href="https://github.com/LLR6/Cybersecurity-Detection-Engineering-Android-Automation-Learning-by-Building"><img alt="NightWatch" src="https://img.shields.io/badge/DETECTION-NightWatch-EF4444?style=for-the-badge"></a>
+  <a href="https://github.com/LLR6/LR-SOC-Copilot"><img alt="SOC Copilot" src="https://img.shields.io/badge/SOC-LR--Copilot-6366F1?style=for-the-badge"></a>
+  <a href="https://github.com/LLR6/LR-Tablet"><img alt="LR Tablet" src="https://img.shields.io/badge/ANDROID-LR--Tablet-22C55E?style=for-the-badge"></a>
+</p>
+
+| Track | Repositories | Focus |
+|---|---|---|
+| **AI Agent** | [LR-Agent](https://github.com/LLR6/LR-agent) | counterfactual patches · evidence · long-horizon reliability |
+| **Detection** | [NightWatch](https://github.com/LLR6/Cybersecurity-Detection-Engineering-Android-Automation-Learning-by-Building) · [Threshold Lab](https://github.com/LLR6/lr-detection-lab) | event correlation · beaconing · thresholds · evidence |
+| **Security × AI** | [SOC Copilot](https://github.com/LLR6/LR-SOC-Copilot) · [Detector Resilience](https://github.com/LLR6/LR-Detector-Resilience-Lab) · [PayloadLab](https://github.com/LLR6/LR-PayloadLab) | investigation · drift · telemetry validation |
+| **Tools** | [Android CI Doctor](https://github.com/LLR6/lr-android-ci-doctor) · [CTF Tracebook](https://github.com/LLR6/lr-ctf-tracebook) | build diagnosis · reproducible notes |
+| **Android / Learning** | [LR-Tablet](https://github.com/LLR6/LR-Tablet) | local-first learning workflow |
+
+<p align="center">
+  <img alt="LR-Agent stars" src="https://img.shields.io/github/stars/LLR6/LR-agent?style=social">
+  <img alt="NightWatch stars" src="https://img.shields.io/github/stars/LLR6/Cybersecurity-Detection-Engineering-Android-Automation-Learning-by-Building?style=social">
+  <img alt="Detection Lab stars" src="https://img.shields.io/github/stars/LLR6/lr-detection-lab?style=social">
+</p>
+
+<!-- LR-PROJECT-MAP:END -->
+
+
 ## 你好，我是 LR 👋
 
 平时主要折腾网络安全、AI Agent、Android 和各种自己真正会用到的小工具。
