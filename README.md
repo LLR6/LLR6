@@ -18,6 +18,45 @@
 
 ---
 
+
+## ✦ Featured
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⏳ [LR-Agent](https://github.com/LLR6/LR-agent)
+
+**What if a patch passes today but breaks after the repository evolves?**
+
+A local coding-agent research lab for counterfactual patches, evidence-driven strategy validation and multi-generation repository aging.
+
+[![Stars](https://img.shields.io/github/stars/LLR6/LR-agent?style=social)](https://github.com/LLR6/LR-agent/stargazers)
+[![CI](https://github.com/LLR6/LR-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/LLR6/LR-agent/actions)
+
+→ [See the demo](https://github.com/LLR6/LR-agent#readme)
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 [Detection Threshold Lab](https://github.com/LLR6/lr-detection-lab)
+
+**See what a detection threshold really costs.**
+
+A reproducible blue-team experiment for beacon detection: labeled synthetic traffic, threshold sweeps, confusion matrices and per-flow evidence.
+
+[![Stars](https://img.shields.io/github/stars/LLR6/lr-detection-lab?style=social)](https://github.com/LLR6/lr-detection-lab/stargazers)
+[![Test](https://github.com/LLR6/lr-detection-lab/actions/workflows/test.yml/badge.svg)](https://github.com/LLR6/lr-detection-lab/actions)
+
+→ [Run the 1-minute demo](https://github.com/LLR6/lr-detection-lab#readme)
+
+</td>
+</tr>
+</table>
+
+> 最近主要在做两个问题：**Agent 的长期可靠性**，以及 **Detection Engineering 里阈值、证据和误报之间的关系**。
+
+
 ## 你好，我是 LR 👋
 
 平时主要折腾网络安全、AI Agent、Android 和各种自己真正会用到的小工具。
