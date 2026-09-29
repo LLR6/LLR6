@@ -169,9 +169,9 @@ A reproducible blue-team experiment for beacon detection: labeled synthetic traf
 
 | 项目 | 在做什么 |
 | :--- | :--- |
-| **[LR-PayloadLab](https://github.com/LLR6/LR-PayloadLab)** | 可审计 Payload、端点遥测、IcedID ATT&CK 行为映射与检测鲁棒性实验 |
-| **[Detector Resilience Lab](https://github.com/LLR6/LR-Detector-Resilience-Lab)** | 观察检测模型在特征漂移后如何出现漏报，并记录翻转样本与特征变化 |
-| **[LR-SOC-Copilot](https://github.com/LLR6/LR-SOC-Copilot)** | 将账号、IP、主机和进程事件串成可回查的调查链，并结合本地 Runbook 辅助分析 |
+| **[LR-PayloadLab](https://github.com/LLR6/LR-PayloadLab)** | 受限、可审计的端点遥测实验：行为声明、策略边界、回执与清理 |
+| **[Detector Resilience Lab](https://github.com/LLR6/LR-Detector-Resilience-Lab)** | 在不可执行数值特征上研究检测模型面对分布漂移时的退化、翻转样本与特征变化 |
+| **[LR-SOC-Copilot](https://github.com/LLR6/LR-SOC-Copilot)** | 按实体和时间关联告警，检索本地 Runbook，并为调查摘要保留源行证据 |
 
 这几个项目互相有一点联系：从产生可观察行为，到检测、关联，再到分析检测为什么会失效。
 
@@ -186,7 +186,7 @@ A reproducible blue-team experiment for beacon detection: labeled synthetic traf
 ### 🔬 What I'm exploring
 
 - Security detection & telemetry
-- Adversary emulation
+- Security telemetry & detection experiments
 - AI Agent reliability
 - Android / local-first tools
 - Automation & reproducible experiments
