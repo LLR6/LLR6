@@ -77,34 +77,6 @@ Tablet-first reading practice, local progress, reproducible APK builds.
 <!-- LR-NOW-BUILDING:END -->
 
 
-<!-- LR-ENGINEERING-HEALTH:START -->
-
-## ◫ Engineering Health
-
-<p align="center">
-  <a href="https://github.com/LLR6/LR-agent/actions"><img alt="LR-Agent CI" src="https://github.com/LLR6/LR-agent/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/LLR6/Cybersecurity-Detection-Engineering-Android-Automation-Learning-by-Building/actions"><img alt="NightWatch CI" src="https://github.com/LLR6/Cybersecurity-Detection-Engineering-Android-Automation-Learning-by-Building/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/LLR6/LR-SOC-Copilot/actions"><img alt="SOC CI" src="https://github.com/LLR6/LR-SOC-Copilot/actions/workflows/test.yml/badge.svg"></a>
-  <a href="https://github.com/LLR6/lr-detection-lab/actions"><img alt="Detection Lab CI" src="https://github.com/LLR6/lr-detection-lab/actions/workflows/test.yml/badge.svg"></a>
-  <a href="https://github.com/LLR6/LR-Tablet/actions"><img alt="Tablet CI" src="https://github.com/LLR6/LR-Tablet/actions/workflows/build-android.yml/badge.svg"></a>
-</p>
-
-| Engineering gate | Where it is used |
-|---|---|
-| **Automated tests** | Core Python tools, Agent experiments, Android data/backup checks |
-| **Labeled regression sets** | NightWatch, CI Doctor, CTF Tracebook, SOC retrieval |
-| **JSON Schema contracts** | Detection/SOC/telemetry/report artifacts |
-| **Multi-run evaluation** | Detection Threshold Lab multi-seed replicate experiments |
-| **Supply-chain checks** | Wheel build + isolated install smoke tests |
-| **Static security analysis** | CodeQL on core Python and JavaScript repositories |
-| **Versioned releases** | Tag-checked build/release workflows for Python tools |
-| **Reproducibility metadata** | SHA-256 manifests, receipts, artifact bundles, CITATION.cff |
-
-> I try to keep a visible line between **implemented**, **tested**, and **empirically demonstrated**. A green test proves a code path; it does not automatically prove a research claim.
-
-<!-- LR-ENGINEERING-HEALTH:END -->
-
-
 ## ✦ Featured
 
 <table>
@@ -144,6 +116,20 @@ A reproducible blue-team experiment for beacon detection: labeled synthetic traf
 
 
 <!-- LR-PROJECT-MAP:START -->
+
+<!-- LR-ENGINEERING-HEALTH:START -->
+## ◫ Engineering Health
+
+<p align="center">
+  <a href="./ENGINEERING_HEALTH.md"><img alt="Engineering health" src="https://img.shields.io/badge/Engineering_Health-tests_%C2%B7_benchmarks_%C2%B7_artifacts_%C2%B7_limits-0D1117?style=for-the-badge&logo=githubactions&logoColor=white"></a>
+</p>
+
+这里不只展示“做了什么”，也记录每个项目有没有 **测试、固定评估集、CI Artifact、完整性/溯源信息，以及明确的限制条件**。
+
+→ [Open the engineering health matrix](./ENGINEERING_HEALTH.md)
+
+<!-- LR-ENGINEERING-HEALTH:END -->
+
 
 ## ◇ Project Constellation
 
